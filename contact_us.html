@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="photo_gallery.html">Photo Gallery</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li class="admin"><a href="admin.html">Admin Login</a></li>
+    </ul>
+    <!-- Contact Form -->
+    <form>
+        <h4>Please enter your info below:</h4>
+        <br>
+        <label for="name">Name: </label><br>
+            <input type="text" placeholder="name" id="firstname" required><br><br>
+        <label for="email">Email Address: </label><br>
+            <input type="email" placeholder="email address" id="email" required><br><br>
+        <label for="phone">Phone Number: </label><br>
+            <input type="phone" placeholder="xxx-xxx-xxxx" id="phone" required><br><br>
+        <label for="message">Message: </label><br>
+            <textarea placeholder="write your message here" id="message" required></textarea><br><br>
+        <input type="checkbox" id="sendcopy">
+            <label for="sendcopy">Send copy of email to myself</label><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
