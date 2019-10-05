@@ -1,0 +1,74 @@
+h1{
+	align: center;
+	padding: 20px;
+	font-family: helvetica;
+}
+p{
+	font-family: verdana;
+	font-size: 16px;
+	color: red;
+}
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li{
+		float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+a:link{
+	color: red;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: green;
+}
+a:active{
+	color: yellow:
+}
+div#Div1 {
+	background-image: url(purpleflowersB.jpg);
+}
+div#Div2 {
+	background-image: url(beeandflowerresized.jpg);
+}
+div#Div3 {
+		background-image: url(sunflowers.jpg);
+}
+div#Div4 {
+	background-image: url(duckinwaterresized.jpg);
+}
+div#Div5 {
+	background-image: url(redskyatnightresized.jpg);
+}
+div#Div6 {
+	background-image: url(tobermoreyferryresized.jpg);
+}
+div#Div7 {
+	background-image: url(airshowresized.jpg);
+}
+table#t01 {
+	width: 100%;
+	background-color: #eee;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 7px;
+}
+table#t02 {
+	width: 100%;
+	background-color: #F0F8FF;
+	padding: 10px;
+	border: none;
+}
+
