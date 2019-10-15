@@ -2,24 +2,157 @@
 <html lang="en">
 
 <head>
-    <title>Admin Login</title>
+    <title>Admin</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <h1>Admin Login</h1>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="photo_gallery.html">Photo Gallery</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
-        <li class="admin"><a href="admin.html">Admin Login</a></li>
-    </ul>
 
-    <form>
-        <h4>Admin Login below:</h4>
-        
-    </form>
+    <div class="fixed">
+        <h1>Admin</h1>
+    </div>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <div class="dropdown">
+                <a href="photo_gallery.html" class="dropbtn">Photo Gallery
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="photo_gallery.html">Photo Gallery</a>
+                    <a href="#favourites">Favourites</a>
+                    <a href="#animals">Animals</a>
+                    <a href="#scenery">Scenery</a>
+                    <a href="#sunsets">Sunsets</a>
+                    <a href="#landmarks">Landmarks</a>
+                    <a href="#food">Food</a>
+                </div>
+            </div>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="adminlogin.html">Logout</a>
+        </div>
+
+<div class="body-container"> 
+    <table>
+        <tr>
+            <th>Image</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Photographer</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/frankiesleep.jpeg" alt="Frankie Sleeping" class="admin-photo"></td>
+            <td>Animals</td>
+            <td>Frankie sleeping</td>
+            <td>Erin Cameron</td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/frankiewine.jpg" alt="Frankie and Wine" class="admin-photo"></td>
+            <td>Animals</td>
+            <td>Frankie and wine</td>
+            <td>Erin Cameron</td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/beangrass.jpeg" alt="Bean in Grass" class="admin-photo"></td>
+            <td>Animals</td>
+            <td>Bean in grass</td>
+            <td>Erin Cameron</td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/frankiesleep.jpeg" alt="Frankie Sleeping" class="admin-photo"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/frankiesleep.jpeg" alt="Frankie Sleeping" class="admin-photo"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/frankiesleep.jpeg" alt="Frankie Sleeping" class="admin-photo"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/frankiesleep.jpeg" alt="Frankie Sleeping" class="admin-photo"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/frankiesleep.jpeg" alt="Frankie Sleeping" class="admin-photo"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td><img src="photo_gallery/animals/frankiesleep.jpeg" alt="Frankie Sleeping" class="admin-photo"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="edit">Edit</button>  <button class="delete">Delete</button></td>
+        </tr>
+    </table>
+
+
+
+</div> <!-- .body-container-->
 </body>
 
 </html>
