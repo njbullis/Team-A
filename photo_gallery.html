@@ -4,34 +4,740 @@
 <head>
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link type="text/javascript" src="js/script.js">
 </head>
 
 <body>
-    <h1>Photo Gallery</h1>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="photo_gallery.html">Photo Gallery</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
-        <li class="admin"><a href="admin.html">Admin Login</a></li>
-    </ul>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
-    <div class="photo">Category</div>
+    <div class="fixed">
+        <h1>Photo Gallery</h1>
+    </div>
 
+<!-- NAVBAR -->
+<div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="dropdown">
+            <a href="photo_gallery.html" class="dropbtn">Photo Gallery
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-content">
+                <a href="photo_gallery.html">Photo Gallery</a>
+                <a href="#favourites">Favourites</a>
+                <a href="#animals">Animals</a>
+                <a href="#scenery">Scenery</a>
+                <a href="#sunsets">Sunsets</a>
+                <a href="#landmarks">Landmarks</a>
+                <a href="#food">Food</a>
+            </div>
+        </div>
+        <a href="contact_us.html">Contact Us</a>
+    </div>
+
+
+
+
+
+<div class="body-container">
+
+<!-- MODAL IMAGES -->
+
+<!-- Favourites Photos -->
+<div id="favourites"></div>
+<br><br><br><br><br><br><br><hr>
+<h2 class="photoHeaders">Favourites</h2>
+    <a class="lightbox" href="#walk">
+        <img src="photo_gallery/favourites/beacheswalk.jpeg" />
+    </a>
+    <div class="lightbox-target" id="walk">
+        <img src="photo_gallery/favourites/beacheswalk.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#canoe">
+        <img src="photo_gallery/favourites/canoe.jpeg" />
+    </a>
+    <div class="lightbox-target" id="canoe">
+        <img src="photo_gallery/favourites/canoe.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#allengardens">
+        <img src="photo_gallery/favourites/allengardens.jpeg" />
+    </a>
+    <div class="lightbox-target" id="allengardens">
+        <img src="photo_gallery/favourites/allengardens.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#beanandme">
+        <img src="photo_gallery/favourites/beanandme.jpeg" />
+    </a>
+    <div class="lightbox-target" id="beanandme">
+        <img src="photo_gallery/favourites/beanandme.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#beannose">
+        <img src="photo_gallery/favourites/beannose.jpeg" />
+    </a>
+    <div class="lightbox-target" id="beannose">
+        <img src="photo_gallery/favourites/beannose.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#grotto2">
+        <img src="photo_gallery/favourites/grotto2.jpeg" />
+    </a>
+    <div class="lightbox-target" id="grotto2">
+        <img src="photo_gallery/favourites/grotto2.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+
+
+<!-- Animals Photos -->
+<div id="animals"></div>
+<br><br><br><br><br><br><br><hr>
+<h2 class="photoHeaders">Animals</h2>
+
+    <a class="lightbox" href="#frankiesleep">
+        <img src="photo_gallery/animals/frankiesleep.jpeg" />
+    </a>
+    <div class="lightbox-target" id="frankiesleep">
+        <img src="photo_gallery/animals/frankiesleep.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#frankiewine">
+        <img src="photo_gallery/animals/frankiewine.jpg" />
+    </a>
+    <div class="lightbox-target" id="frankiewine">
+        <img src="photo_gallery/animals/frankiewine.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#beangrass">
+        <img src="photo_gallery/animals/beangrass.jpeg" />
+    </a>
+    <div class="lightbox-target" id="beangrass">
+        <img src="photo_gallery/animals/beangrass.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#beanlaying">
+        <img src="photo_gallery/animals/beanlaying.jpeg" />
+    </a>
+    <div class="lightbox-target" id="beanlaying">
+        <img src="photo_gallery/animals/beanlaying.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#colombiadog">
+        <img src="photo_gallery/animals/colombiadog.jpeg" />
+    </a>
+    <div class="lightbox-target" id="colombiadog">
+        <img src="photo_gallery/animals/colombiadog.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#colombiadog2">
+        <img src="photo_gallery/animals/colombiadog2.jpeg" />
+    </a>
+    <div class="lightbox-target" id="colombiadog2">
+        <img src="photo_gallery/animals/colombiadog2.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#tarantula">
+        <img src="photo_gallery/animals/tarantula.jpeg" />
+    </a>
+    <div class="lightbox-target" id="tarantula">
+        <img src="photo_gallery/animals/tarantula.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#frankieblinds">
+        <img src="photo_gallery/animals/frankieblinds.jpeg" />
+    </a>
+    <div class="lightbox-target" id="frankieblinds">
+        <img src="photo_gallery/animals/frankieblinds.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#moose">
+        <img src="photo_gallery/animals/moose.jpeg" />
+    </a>
+    <div class="lightbox-target" id="moose">
+        <img src="photo_gallery/animals/moose.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#timmy">
+        <img src="photo_gallery/animals/timmy.jpeg" />
+    </a>
+    <div class="lightbox-target" id="timmy">
+        <img src="photo_gallery/animals/timmy.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#timmy2">
+        <img src="photo_gallery/animals/timmy2.jpeg" />
+    </a>
+    <div class="lightbox-target" id="timmy2">
+        <img src="photo_gallery/animals/timmy2.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#beanheadshot">
+        <img src="photo_gallery/animals/beanheadshot.jpg" />
+    </a>
+    <div class="lightbox-target" id="beanheadshot">
+        <img src="photo_gallery/animals/beanheadshot.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#beandistant">
+        <img src="photo_gallery/animals/beandistant.jpg" />
+    </a>
+    <div class="lightbox-target" id="beandistant">
+        <img src="photo_gallery/animals/beandistant.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#golden">
+        <img src="photo_gallery/animals/golden.jpeg" />
+    </a>
+    <div class="lightbox-target" id="golden">
+        <img src="photo_gallery/animals/golden.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#fish">
+        <img src="photo_gallery/animals/fish.jpeg" />
+    </a>
+    <div class="lightbox-target" id="fish">
+        <img src="photo_gallery/animals/fish.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#beanalert">
+        <img src="photo_gallery/animals/beanalert.jpg" />
+    </a>
+    <div class="lightbox-target" id="beanalert">
+        <img src="photo_gallery/animals/beanalert.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#twosocks">
+        <img src="photo_gallery/animals/twosocks.jpeg" />
+    </a>
+    <div class="lightbox-target" id="twosocks">
+        <img src="photo_gallery/animals/twosocks.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+
+
+
+<!-- Scenery Photos -->
+<div id="scenery"></div>
+<br><br><br><br><br><br><br><hr>
+<h2 class="photoHeaders">Scenery</h2>
+
+<a class="lightbox" href="#colombiamountains">
+        <img src="photo_gallery/scenery/colombiamountains.jpg" />
+    </a>
+    <div class="lightbox-target" id="colombiamountains">
+        <img src="photo_gallery/scenery/colombiamountains.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#tayronabeach">
+        <img src="photo_gallery/scenery/tayronabeach.jpg" />
+    </a>
+    <div class="lightbox-target" id="tayronabeach">
+        <img src="photo_gallery/scenery/tayronabeach.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#pointpelee">
+        <img src="photo_gallery/scenery/pointpelee.jpeg" />
+    </a>
+    <div class="lightbox-target" id="pointpelee">
+        <img src="photo_gallery/scenery/pointpelee.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#thunderbay">
+        <img src="photo_gallery/scenery/thunderbay.jpeg" />
+    </a>
+    <div class="lightbox-target" id="thunderbay">
+        <img src="photo_gallery/scenery/thunderbay.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#cartegena">
+        <img src="photo_gallery/scenery/cartegena.jpeg" />
+    </a>
+    <div class="lightbox-target" id="cartegena">
+        <img src="photo_gallery/scenery/cartegena.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#tayrona">
+        <img src="photo_gallery/scenery/tayrona.jpeg" />
+    </a>
+    <div class="lightbox-target" id="tayrona">
+        <img src="photo_gallery/scenery/tayrona.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#lavictoria">
+        <img src="photo_gallery/scenery/lavictoria.jpeg" />
+    </a>
+    <div class="lightbox-target" id="lavictoria">
+        <img src="photo_gallery/scenery/lavictoria.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#medellin">
+        <img src="photo_gallery/scenery/medellin.jpeg" />
+    </a>
+    <div class="lightbox-target" id="medellin">
+        <img src="photo_gallery/scenery/medellin.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#guatape2">
+        <img src="photo_gallery/scenery/guatape2.jpeg" />
+    </a>
+    <div class="lightbox-target" id="guatape2">
+        <img src="photo_gallery/scenery/guatape2.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#guatape">
+        <img src="photo_gallery/scenery/guatape.jpeg" />
+    </a>
+    <div class="lightbox-target" id="guatape">
+        <img src="photo_gallery/scenery/guatape.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#banff">
+        <img src="photo_gallery/scenery/banff.jpeg" />
+    </a>
+    <div class="lightbox-target" id="banff">
+        <img src="photo_gallery/scenery/banff.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#lakelouise">
+        <img src="photo_gallery/scenery/lakelouise.jpeg" />
+    </a>
+    <div class="lightbox-target" id="lakelouise">
+        <img src="photo_gallery/scenery/lakelouise.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#lakelouise2">
+        <img src="photo_gallery/scenery/lakelouise2.jpeg" />
+    </a>
+    <div class="lightbox-target" id="lakelouise2">
+        <img src="photo_gallery/scenery/lakelouise2.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#camping">
+        <img src="photo_gallery/scenery/camping.jpeg" />
+    </a>
+    <div class="lightbox-target" id="camping">
+        <img src="photo_gallery/scenery/camping.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#grotto">
+        <img src="photo_gallery/scenery/grotto.jpeg" />
+    </a>
+    <div class="lightbox-target" id="grotto">
+        <img src="photo_gallery/scenery/grotto.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#braycliff">
+        <img src="photo_gallery/scenery/braycliff.jpeg" />
+    </a>
+    <div class="lightbox-target" id="braycliff">
+        <img src="photo_gallery/scenery/braycliff.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#bray">
+        <img src="photo_gallery/scenery/bray.jpeg" />
+    </a>
+    <div class="lightbox-target" id="bray">
+        <img src="photo_gallery/scenery/bray.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#causeway">
+        <img src="photo_gallery/scenery/causeway.jpeg" />
+    </a>
+    <div class="lightbox-target" id="causeway">
+        <img src="photo_gallery/scenery/causeway.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#waterfall">
+        <img src="photo_gallery/scenery/waterfall.jpeg" />
+    </a>
+    <div class="lightbox-target" id="waterfall">
+        <img src="photo_gallery/scenery/waterfall.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#bridge">
+        <img src="photo_gallery/scenery/bridge.jpeg" />
+    </a>
+    <div class="lightbox-target" id="bridge">
+        <img src="photo_gallery/scenery/bridge.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#bray2">
+        <img src="photo_gallery/scenery/bray2.jpeg" />
+    </a>
+    <div class="lightbox-target" id="bray2">
+        <img src="photo_gallery/scenery/bray2.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#ashbridgesbay">
+        <img src="photo_gallery/scenery/ashbridgesbay.jpeg" />
+    </a>
+    <div class="lightbox-target" id="ashbridgesbay">
+        <img src="photo_gallery/scenery/ashbridgesbay.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+
+
+
+
+
+<!-- Sunset Photos -->
+<div id="sunsets"></div>
+<br><br><br><br><br><br><br><hr>
+<h2 class="photoHeaders">Sunsets</h2>
+
+    <a class="lightbox" href="#yurtsunset">
+        <img src="photo_gallery/sunsets/yurtsunset.jpg" />
+    </a>
+    <div class="lightbox-target" id="yurtsunset">
+        <img src="photo_gallery/sunsets/yurtsunset.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#toronto">
+        <img src="photo_gallery/sunsets/toronto.jpeg" />
+    </a>
+    <div class="lightbox-target" id="toronto">
+        <img src="photo_gallery/sunsets/toronto.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#torontoskyline">
+        <img src="photo_gallery/sunsets/torontoskyline.jpeg" />
+    </a>
+    <div class="lightbox-target" id="torontoskyline">
+        <img src="photo_gallery/sunsets/torontoskyline.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#yurt">
+        <img src="photo_gallery/sunsets/yurt.jpeg" />
+    </a>
+    <div class="lightbox-target" id="yurt">
+        <img src="photo_gallery/sunsets/yurt.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#colombiansunset">
+        <img src="photo_gallery/sunsets/colombiasunset.jpeg" />
+    </a>
+    <div class="lightbox-target" id="colombiasunset">
+        <img src="photo_gallery/sunsets/colombiasunset.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#cartegenasunset">
+        <img src="photo_gallery/sunsets/cartegenasunset.jpeg" />
+    </a>
+    <div class="lightbox-target" id="cartegenasunset">
+        <img src="photo_gallery/sunsets/cartegenasunset.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#tayronasunset">
+        <img src="photo_gallery/sunsets/tayronasunset.jpeg" />
+    </a>
+    <div class="lightbox-target" id="tayronasunset">
+        <img src="photo_gallery/sunsets/tayronasunset.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#minca">
+        <img src="photo_gallery/sunsets/minca.jpeg" />
+    </a>
+    <div class="lightbox-target" id="minca">
+        <img src="photo_gallery/sunsets/minca.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#edmonton">
+        <img src="photo_gallery/sunsets/edmonton.jpeg" />
+    </a>
+    <div class="lightbox-target" id="edmonton">
+        <img src="photo_gallery/sunsets/edmonton.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#ashbridgessunset">
+        <img src="photo_gallery/sunsets/ashbridgessunset.jpeg" />
+    </a>
+    <div class="lightbox-target" id="ashbridgessunset">
+        <img src="photo_gallery/sunsets/ashbridgessunset.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#ambulance">
+        <img src="photo_gallery/sunsets/ambulance.jpeg" />
+    </a>
+    <div class="lightbox-target" id="ambulance">
+        <img src="photo_gallery/sunsets/ambulance.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#bonecho">
+        <img src="photo_gallery/sunsets/bonecho.jpeg" />
+    </a>
+    <div class="lightbox-target" id="bonecho">
+        <img src="photo_gallery/sunsets/bonecho.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+
+
+
+<!-- Landmarks Photos -->
+<div id="landmarks"></div>
+<br><br><br><br><br><br><br><hr>
+<h2 class="photoHeaders">Landmarks</h2>
+
+    <a class="lightbox" href="#radiocity">
+        <img src="photo_gallery/landmarks/radiocity.jpeg" />
+    </a>
+    <div class="lightbox-target" id="radiocity">
+        <img src="photo_gallery/landmarks/radiocity.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#chelseamarket">
+        <img src="photo_gallery/landmarks/chelseamarket.jpeg" />
+    </a>
+    <div class="lightbox-target" id="chelseamarket">
+        <img src="photo_gallery/landmarks/chelseamarket.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div> 
+    
+    <a class="lightbox" href="#manhattan">
+        <img src="photo_gallery/landmarks/manhattan.jpeg" />
+    </a>
+    <div class="lightbox-target" id="manhattan">
+        <img src="photo_gallery/landmarks/manhattan.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div> 
+    
+    <a class="lightbox" href="#guataperock">
+        <img src="photo_gallery/landmarks/guataperock.jpeg" />
+    </a>
+    <div class="lightbox-target" id="guataperock">
+        <img src="photo_gallery/landmarks/guataperock.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div> 
+    
+    <a class="lightbox" href="#lakelouiseskate">
+        <img src="photo_gallery/landmarks/lakelouiseskate.jpeg" />
+    </a>
+    <div class="lightbox-target" id="lakelouiseskate">
+        <img src="photo_gallery/landmarks/lakelouiseskate.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div> 
+    
+    <a class="lightbox" href="#giantscauseway">
+        <img src="photo_gallery/landmarks/giantscauseway.jpeg" />
+    </a>
+    <div class="lightbox-target" id="giantscauseway">
+        <img src="photo_gallery/landmarks/giantscauseway.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div> 
+    
+    <a class="lightbox" href="#cntower">
+        <img src="photo_gallery/landmarks/cntower.jpeg" />
+    </a>
+    <div class="lightbox-target" id="cntower">
+        <img src="photo_gallery/landmarks/cntower.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div> 
+
+
+
+
+<!-- Food Photos -->
+<div id="food"></div>
+<br><br><br><br><br><br><br><hr>
+<h2 class="photoHeaders">Food</h2>
+
+    <a class="lightbox" href="#frankiesleep">
+        <img src="photo_gallery/animals/frankiesleep.jpeg" />
+    </a>
+    <div class="lightbox-target" id="frankiesleep">
+        <img src="photo_gallery/animals/frankiesleep.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#frankiewine">
+        <img src="photo_gallery/animals/frankiewine.jpg" />
+    </a>
+    <div class="lightbox-target" id="frankiewine">
+        <img src="photo_gallery/animals/frankiewine.jpg" />
+        <a class="lightbox-close" href="javascript:;"></a>
+    </div>
+
+    <a class="lightbox" href="#beangrass">
+        <img src="photo_gallery/animals/beangrass.jpeg" />
+    </a>
+    <div class="lightbox-target" id="beangrass">
+        <img src="photo_gallery/animals/beangrass.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    
+    <a class="lightbox" href="#beanlaying">
+        <img src="photo_gallery/animals/beanlaying.jpeg" />
+    </a>
+    <div class="lightbox-target" id="beanlaying">
+        <img src="photo_gallery/animals/beanlaying.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#colombiadog">
+        <img src="photo_gallery/animals/colombiadog.jpeg" />
+    </a>
+    <div class="lightbox-target" id="colombiadog">
+        <img src="photo_gallery/animals/colombiadog.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#colombiadog2">
+        <img src="photo_gallery/animals/colombiadog2.jpeg" />
+    </a>
+    <div class="lightbox-target" id="colombiadog2">
+        <img src="photo_gallery/animals/colombiadog2.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#tarantula">
+        <img src="photo_gallery/animals/tarantula.jpeg" />
+    </a>
+    <div class="lightbox-target" id="tarantula">
+        <img src="photo_gallery/animals/tarantula.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#frankieblinds">
+        <img src="photo_gallery/animals/frankieblinds.jpeg" />
+    </a>
+    <div class="lightbox-target" id="frankieblinds">
+        <img src="photo_gallery/animals/frankieblinds.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#moose">
+        <img src="photo_gallery/animals/moose.jpeg" />
+    </a>
+    <div class="lightbox-target" id="moose">
+        <img src="photo_gallery/animals/moose.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#timmy">
+        <img src="photo_gallery/animals/timmy.jpeg" />
+    </a>
+    <div class="lightbox-target" id="timmy">
+        <img src="photo_gallery/animals/timmy.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#timmy2">
+        <img src="photo_gallery/animals/timmy2.jpeg" />
+    </a>
+    <div class="lightbox-target" id="timmy2">
+        <img src="photo_gallery/animals/timmy2.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#beanheadshot">
+        <img src="photo_gallery/animals/beanheadshot.jpg" />
+    </a>
+    <div class="lightbox-target" id="beanheadshot">
+        <img src="photo_gallery/animals/beanheadshot.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#beandistant">
+        <img src="photo_gallery/animals/beandistant.jpg" />
+    </a>
+    <div class="lightbox-target" id="beandistant">
+        <img src="photo_gallery/animals/beandistant.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#golden">
+        <img src="photo_gallery/animals/golden.jpeg" />
+    </a>
+    <div class="lightbox-target" id="golden">
+        <img src="photo_gallery/animals/golden.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#fish">
+        <img src="photo_gallery/animals/fish.jpeg" />
+    </a>
+    <div class="lightbox-target" id="fish">
+        <img src="photo_gallery/animals/fish.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#beanalert">
+        <img src="photo_gallery/animals/beanalert.jpg" />
+    </a>
+    <div class="lightbox-target" id="beanalert">
+        <img src="photo_gallery/animals/beanalert.jpg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+    <a class="lightbox" href="#twosocks">
+        <img src="photo_gallery/animals/twosocks.jpeg" />
+    </a>
+    <div class="lightbox-target" id="twosocks">
+        <img src="photo_gallery/animals/twosocks.jpeg" />
+        <a class="lightbox-close" href="#"></a>
+    </div>
+
+
+
+
+    </div> <!-- body-container end -->
 </body>
 
 </html>

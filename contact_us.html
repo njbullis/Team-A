@@ -7,15 +7,36 @@
 </head>
 
 <body>
-    <h1>Contact Us</h1>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="photo_gallery.html">Photo Gallery</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
-        <li class="admin"><a href="admin.html">Admin Login</a></li>
-    </ul>
+
+    <div class="fixed">
+        <h1>Contact Us</h1>
+    </div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="dropdown">
+            <a href="photo_gallery.html" class="dropbtn">Photo Gallery
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-content">
+                <a href="photo_gallery.html">Photo Gallery</a>
+                <a href="#favourites">Favourites</a>
+                <a href="#animals">Animals</a>
+                <a href="#scenery">Scenery</a>
+                <a href="#sunsets">Sunsets</a>
+                <a href="#landmarks">Landmarks</a>
+                <a href="#food">Food</a>
+            </div>
+        </div>
+        <a href="contact_us.html">Contact Us</a>
+    </div>
+    
+
+
     <!-- Contact Form -->
+<div class="body-container">
     <form>
         <h4>Please enter your info below:</h4>
         <br>
@@ -29,9 +50,14 @@
             <textarea placeholder="write your message here" id="message" required></textarea><br><br>
         <input type="checkbox" id="sendcopy">
             <label for="sendcopy">Send copy of email to myself</label><br><br>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
     </form>
+
+
+
+
+</div> <!-- .body-container -->
 </body>
 
 </html>
