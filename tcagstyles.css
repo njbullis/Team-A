@@ -2,28 +2,73 @@ h1{
 	align: center;
 	padding: 20px;
 	font-family: helvetica;
+	color: lightgray;
 }
 p{
 	font-family: verdana;
 	font-size: 16px;
-	color: red;
+	color: lightgray;
 }
-ul{
-	list-style-type:none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+
+body {
+font-family: "Verdana";
 }
-li{
-		float: left;
+.sidenav {
+height: 100%;
+width: 160px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+padding-top: 20px;
 }
-li a{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
+
+.sidenav a{
+	padding: 6px 8px 6px 16px;
 	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	}
+	
+.sidenav a:link {
+	color: red;
+	}
+	.sidenav a:visited {
+		color: yellow;
+
+	}.sidenav a:hover {
+		color: turquoise;
+
+	}.sidenav a:active {
+	color: green;
+	}
+	
+.main{
+	margin-left: 160px;
+	font-size: 28px;
+	padding: 0px 10px;
+	}
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}
+		}
+	</style>
+	</head>
+	<body>
+	
+	<div class="sidenav">
+	<a href="homepage.html">Home</a>
+	<a href="aboutus.html">About Us</a>
+	<a href="contactus.html">Contact Us</a>
+	<a href="galleryanimals.html">Animals</a>
+	<a href="gallerysunsets.html">Sunsets</a>
+	<a href="galleryscenery.html">Scenery</a>
+	<a href="gallerylandmarks.html">Landmarks</a>
+	<a href="galleryfaves.html.html">Faves</a>
+	</div>
 }
 a:link{
 	color: red;
@@ -32,32 +77,12 @@ a:visited{
 	color: white;
 }
 a:hover{
-	color: green;
+	color: turquoise;
 }
 a:active{
-	color: yellow:
+	color: yellow;
 }
-div#Div1 {
-	background-image: url(purpleflowersB.jpg);
-}
-div#Div2 {
-	background-image: url(beeandflowerresized.jpg);
-}
-div#Div3 {
-		background-image: url(sunflowers.jpg);
-}
-div#Div4 {
-	background-image: url(duckinwaterresized.jpg);
-}
-div#Div5 {
-	background-image: url(redskyatnightresized.jpg);
-}
-div#Div6 {
-	background-image: url(tobermoreyferryresized.jpg);
-}
-div#Div7 {
-	background-image: url(airshowresized.jpg);
-}
+
 table#t01 {
 	width: 100%;
 	background-color: #eee;
