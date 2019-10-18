@@ -1,0 +1,129 @@
+
+/* PHOTOGALLERY SIDENAV */
+.sidenav {
+    height: 210px;
+    width: 130px;
+    position: fixed;
+    float: left;
+    z-index: 1;
+    top: 145px;
+    background-color: #2f3440;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+
+
+/* Photo Gallery Dropdown */
+
+.topNavLinks {
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+/* display block makes the whole element clickable, not just the text */
+.topNavLinks a {
+    list-style-type: none;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdownContainer {
+    position: relative;
+    display: inline-block;
+}
+
+/* check to make sure this works - when "animals" is selected, the selection stays highlighted */
+.dropdownLinks {
+    display: none;
+    position: absolute;
+    background-color: #2f3440;
+    color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.galleryDropdown a:hover .dropdownLinks {
+    display: block;
+}
+
+.topNavLinks ul li a:active {
+    background-color: royalblue;
+    color: whitesmoke;
+}
+
+/* LVHA - link, visited, hover, active */
+.topNavLinks a:hover {
+    background-color: #525760;
+}
+
+.topNavLinks a:active {
+    background-color: royalblue;
+    color: whitesmoke;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    display: block;
+    font-size: 16px;
+}
+
+.sidenav a:hover {
+    background-color: #2f3440;
+    color: whitesmoke;
+}
+
+.mainPhotoGallery {
+    margin-left: 150px; /* same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+/* NAVBAR CSS */
+/* setting margin & padding to 0 helps remove default browser settings */
+.topNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f3440;
+    position: sticky;
+    top: 0;
+}
+
+  /* .background-container {
+    position: relative;
+  } */
+
+  /* .background-image {
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+  /* .caption {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    font-size: 34px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #2f3440;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+
+    /* Add a grey background color to dropdown links on hover */
+  /* .dropdown-content a:hover {
+    background-color: royalblue;
+  } */
