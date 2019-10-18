@@ -1,30 +1,158 @@
 <!DOCTYPE html>
+<html lang="en">
 <head><title>About Us</title>
 <link rel="stylesheet" href="tcagstyles.css">
-</head>
-<body>
-<div>
-<ul style=border-radius: 10px;">
-<li><a href="homepage.html">Home</a></li>
-<li><a href="contactus.html">Contact Us</a></li>
-<li><a href="galleryanimals.html">Animals</a></li>
-<li><a href="gallerysunsets.html">Sunsets</a></li>
-<li><a href="galleryscenery.html">Scenery</a></li>
-<li><a href="gallerylandmarks.html">Landmarks</a></li>
-<li><a href="faves.html">Faves</a></li>
-</ul>
+<style>
+body {
+	font-family: "Verdana";
+	}
+	
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: lightgray;
+	overflow-x: hidden;
+	padding-top: 20px;
+	}
+	
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	background-color: none;
+	font-size: 25px;
+	display: block;
+	}
+ 
+ .main {
+	margin-left: 160px;
+	font-size: 28px;
+	padding: 0px 10px;
+	}
+.footer {
+		margin-left: 160px;
+		font-size:16px;
+		padding: 800px 0px 0px 0px;
+		}
+	
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-siz: 18px;}
+		}
+		
+.left-column
+{
+margin-left: 180px;
+float:left;
+width:300px;
+border:none;
+border-radius:10px;
+height:600px;
+background-color:lightgray;
+font-size:18px;
+display:block;
+}
+.right-column
+{
+float:left;
+width:300px;
+border:none;
+border-radius:10px;
+height:600px;
+background-color:lightgray;
+text-decoration: none;
+font-size:18px;
+display: block;
+}
+.center-column
+{
+float:left;
+width:300px;
+border:none;
+border-radius:10px;
+height:600px;
+background-color:lightgray;
+font-size: 18px;
+display: block;
+}
+</style>
+	</head>
+	<body>
+	
+	<div class="sidenav">
+		<a href="homepage.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+		<a href="contactus.html">Contact Us</a>
+		<a href="galleryanimals.html">Animals</a>
+		<a href="gallerysunsets.html">Sunsets</a>
+		<a href="galleryscenery.html">Scenery</a>
+		<a href="gallerylandmarks.html">Landmarks</a>
+		<a href="galleryfaves.html">Faves</a>
+	</div>
+	
+	<div class="main">
+	<body style="background-color:#3333cc">
+		<h1 align="center">About Us</h1>
+		</div>	
+	<div id="container" body style="align-center" "padding=10px">
+<section class="left-column" align="center">
+<table>
+<tr><td>
+<th2>Erin Cameron</th2>
+</td></tr>
+<tr></td>
+<tr><td>
+<a href="developer.jpg">
+<img src="developer.jpg" alt="Erin Cameron" width="150" height="150"></a></td>
+<tr><td>
+Erin is ...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</td></tr>
+</td></tr>
+</table>
+</section>
+
+<section class="right-column"align="center">
+<table>
+<tr><td>
+<th2>Nancy Bullis</th2>
+</td></tr>
+<tr></td>
+<tr><td>
+<a href="authornb.jpg">
+<img src="authornb.jpg" alt="Nancy Bullis" width="150" height="150"></a></td>
+<tr><td>
+Nancy is an aspiring web developer who hopes to be widely sought after as an expert in something that revolutionizes an industry. Nancy writes business reference books as well as poetry and fiction. Nancy currently hosts a radio show about writers and the writing process on CIUT 89.5FM.
+</td></tr>
+</td></tr>
+</table>
+</section>
+
+<section class="center-column"align="center">
+<table>
+<tr><td>
+<th2>Courtland Low</th2>
+</td></tr>
+<tr></td>
+<tr><td>
+<a href="developer.jpg">
+<img src="developer.jpg" alt="Courtland Low" width="150" height="150"></a></td>
+<tr><td>
+Courtland is ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</td></tr>
+</td></tr>
+</table>
+</section>
+</section>
 </div>
-<div>
-<div id="Div3" name="Div3" title="About" style="height: 200px; border: 15px solid indigo; border-radius: 15px;">
-<h1 align="centre">About Us</h1>
-</div>
-<div>
-<body style="background-color:#6B8E23">
-</div>
-<div>
-<p align="center">Copyright&copy;Photos:Photographer Website:Developers All rights Reserved</p>
-<p align="center"><a href="privacypolicy.html">Privacy Policy</a></p>
+
+
+<div class="footer">
+<p align="center">Copyright&copy;Photos:Photographers Website:Developers All Rights Reserved</p>
 <p align="center"><a href="termsandconditions.html">Terms & Conditions</a></p>
+<p align="center"><a href="privacypolicy.html">Privacy Policy</a></p>
 </div>
 </body>
 </html>
