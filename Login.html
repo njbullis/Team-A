@@ -1,0 +1,38 @@
+
+<!-- saved from url=(0041)file:///C:/Users/njbul/Desktop/Login.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <p>Login</p>
+
+    <p><input type="text" id="yourLogin"></p>
+
+    <p><button id="checkYourLogin">Enter</button></p>
+
+    <script type="text/javascript">
+
+        document.getElementById("checkYourLogin").onclick = function() {
+
+        let  yourLoginEntered = document.getElementById("yourLogin").value;
+
+        let yourLogin = "FS1000TeamC";
+        
+        if (yourLoginEntered == yourLogin) {
+            
+            alert ("Your password is correct!");
+			
+			} else {
+
+            alert("No, please try again!");
+}
+
+}
+
+</script>
+
+</body></html>

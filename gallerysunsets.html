@@ -1,29 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><title>Sunsets</title>
-<link rel="stylesheet" href="tcagstyles.css"</head>
-<div>
-<ul style="border-radius: 10px">
-<li><a href="homepage.html">Home</a></li>
-<li><a href="aboutus.html">About Us</a></li>
-<li><a href="contactus.html">Contact Us</a></li>
-<li><a href="galleryanimals.html">Animals</a></li>
-<li><a href="galleryscenery.html">Scenery</a></li>
-<li><a href="gallerylandmarks.html">Landmarks</a></li>
-<li><a href="faves.html">Faves</a></li>
-</ul>
-</div>
-<body>
-<div id="Div5" name="Div5" title="sunsets" style="height: 200px; border: 15px solid orange; border-radius: 15px;">
-<h1 align="center">Sunsets</h1>
-</div>
-<div>
-<body style="background-color:#B22222">
-</div>
-<div>
-<p align="center">Copyright &copy; Photos Photographers Website Developers All Rights Reserved</p>
-<p align="center"><a href="privacypolicy.html"></a>Privacy Policy</p>
-<p align="center"><a href="termsandconditions.html"></a>Terms & Conditions</p>
+<link rel="stylesheet" href="tcagstyles.css">
+<style>
+body {
+	font-family: "Verdana";
+	}
+	
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: lightgray;
+	overflow-x: hidden;
+	padding-top: 20px;
+	}
+	
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	background-color: none;
+	font-size: 25px;
+	display: block;
+	}
+ 
+ .main {
+	margin-left: 160px;
+	font-size: 28px;
+	padding: 0px 10px;
+	}
+.column {
+		float: left;
+		width: 20%;
+		padding: 5px;
+		}
+.row {
+		content: "";
+		clear: both;
+		display: table;
+		}
+img {
+		border: 1px solid black;
+		border-radius: 4px;
+		padding: 5px;
+		width: 150 px;
+		}
+img: hover {
+		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+		}
+.footer {
+		margin-left: 240px;
+		margin-right: 40px;
+		font-size:16px;
+		padding: 800px 0px 0px 0px;
+	
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-siz: 18px;}
+		}
+		</style>
+	</head>
+	<body>
+	
+	<div class="sidenav">
+	<border-radius=10px;>
+		<a href="homepage.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+		<a href="contactus.html">Contact Us</a>
+		<a href="galleryanimals.html">Animals</a>
+		<a href="gallerysunsets.html">Sunsets</a>
+		<a href="galleryscenery.html">Scenery</a>
+		<a href="gallerylandmarks.html">Landmarks</a>
+		<a href="galleryfaves.html">Faves</a>
+	</div>
+	
+	<div class="main">
+	<body style="background-color:#3333cc">
+		<h1 align="center">Sunsets</h1>
+		<p align="center">Take a tour through our photo gallery.</br>Click on a photo of your choice for an enhanced view.</p>
+	<div class="row">
+	<div class="column">
+	<a href="redskyatnight.jpg">
+	<img src="redskyatnight.jpg" alt="Red Sky At Night" style="width:100%">
+	<figcaption>No. 9 Red Sky at Night</figcaption>
+	</div>
+	<div class="column">
+	<a href=".jpg">
+	<img src=".jpg" alt="" style="width:100%">
+	</div>
+	<div class="column">
+	<a href=".jpg">
+	<img src=".jpg" alt="" style="width:100%">
+	</div>
+	<div class="column">
+	<a href=".jpg" alt="" style="width:100%">
+	</div>
+	</div>
+	<div class="row">
+	<div class="column">
+	<a href=".jpg">
+	<img src=".jpg" alt="" style="width:100%">
+	</div>
+	<div class="column">
+	<a href=".jpg">
+	<img src=".jpg" alt="" style="width:100%">
+	</div>
+	<div class="column">
+	<a href=".jpg">
+	<img src=".jpg"	alt="" style="width:100%">
+	</div>
+	<div class="column">
+	<a href=".jpg">
+	<img src=".jpg" alt="" style="width:100%">
+	</div>
+	</div>
+	
+	
+	</div>				
+<div class="footer">
+<p align="center">Copyright&copy;Photos:Photographers Website:Developers All Rights Reserved</p>
+<p align="center"><a href="termsandconditions.html">Terms & Conditions</a></p>
+<p align="center"><a href="privacypolicy.html">Privacy Policy</a></p>
 </div>
 </body>
 </html>

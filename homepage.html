@@ -1,25 +1,69 @@
 <!DOCTYPE html>
-<head><title>Homepage</title>
+<html lang="en">
+<head><title>Team C Photo Gallery</title>
 <link rel="stylesheet" href="tcagstyles.css">
-</head>
-<body>
-<div>
-<ul style="border-radius:10px;">
-<li><a href="aboutus.html">About Us</a></li>
-<li><a href="contactus.html">Contact Us</a></li>
-<li><a href="galleryanimals.html">Animals</a></li>
-<li><a href="gallerysunsets.html">Sunsets</a></li>
-<li><a href="galleryscenery.html">Scenery</a></li>
-<li><a href="gallerylandmarks.html">Landmarks</a></li>
-<li><a href="faves.html">Faves<a></li>
-</ul>
-</div>
-<div id="Div2" name="Div2" title="Home" style="height: 600px; border: 15px solid red; border-radius: 15px;">
-<h1 align="center">Team C Art Gallery</h1>
-</div>
-<div>
-<body style="background-color:#F5DEB3">
-<div>
+<style>
+body {
+	font-family: "Verdana";
+	}
+
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: lightgray;
+	overflow-x: hidden;
+	padding-top: 20px;
+	}
+	
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	background-color: none;
+	font-size: 25px;
+	display: block;
+	}
+ 
+ .main {
+	margin-left: 160px;
+	font-size: 28px;
+	padding: 0px 10px;
+	}
+.footer {
+		margin-left: 160px;
+		font-size:16px;
+		padding: 800px 0px 0px 0px;
+		}
+	
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-siz: 18px;}
+		}
+		</style>
+	</head>
+	<body>
+	
+	<div class="sidenav">
+	<border-radius="10px">
+		<a href="homepage.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+		<a href="contactus.html">Contact Us</a>
+		<a href="galleryanimals.html">Animals</a>
+		<a href="gallerysunsets.html">Sunsets</a>
+		<a href="galleryscenery.html">Scenery</a>
+		<a href="gallerylandmarks.html">Landmarks</a>
+		<a href="galleryfaves.html">Faves</a>
+	</div>
+	
+	<div class="main">
+	<body style="background-color:#3333cc">
+		<h1 align="center">Team C Photo Gallery</h1>
+		<p align="center">Take a tour through our photo gallery.</br>Click on a photo of your choice for an enhanced view.</p>
+	</div>				
+<div class="footer">
 <p align="center">Copyright&copy;Photos:Photographers Website:Developers All Rights Reserved</p>
 <p align="center"><a href="termsandconditions.html">Terms & Conditions</a></p>
 <p align="center"><a href="privacypolicy.html">Privacy Policy</a></p>

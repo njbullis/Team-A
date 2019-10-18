@@ -1,91 +1,139 @@
 <!DOCTYPE html>
-<!-- saved from url=(0084)file:///C:/Users/nbull/Desktop/FS1000groupproject/galleryscenery/galleryscenery.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Scenery</title>
+<html lang="en">
+<head><title>Scenery</title>
 <link rel="stylesheet" href="tcagstyles.css">
 <style>
+body {
+	font-family: "Verdana";
+	}
+	
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: lightgray;
+	overflow-x: hidden;
+	padding-top: 20px;
+	}
+	
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	background-color: none;
+	font-size: 25px;
+	display: block;
+	}
+ 
+ .main {
+	margin-left: 240px;
+	margin-right: 40px;
+	font-size: 28px;
+	padding: 0px 10px;
+}
+.column{
+	float: left;
+	width: 20%;
+	padding: 5px;
+	}
+	
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+		}
 img {
 	border: 1px solid black;
 	border-radius: 4px;
 	padding: 5px;
 	width: 150 px;
-	}
-	
+	}	
 img:hover {
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-</style>
-</head>
-<body style="background-color:#D8BFD8">
+.footer {
+		margin-left: 160px;
+		font-size:16px;
+		padding: 800px 0px 0px 0px;
+	
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-siz: 18px;}
+		}
+		</style>
+	</head>
+	<body>
+	
+	<div class="sidenav">
+	<border-radius=10px;>
+		<a href="homepage.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+		<a href="contactus.html">Contact Us</a>
+		<a href="galleryanimals.html">Animals</a>
+		<a href="gallerysunsets.html">Sunsets</a>
+		<a href="galleryscenery.html">Scenery</a>
+		<a href="gallerylandmarks.html">Landmarks</a>
+		<a href="galleryfaves.html">Faves</a>
+	</div>
+	
+	<div class="main">
+	<body style="background-color:#3333cc">
+		<h1 align="center">Scenery</h1>
+		<p align="center">Take a tour through our photo gallery.</br>Click on a photo of your choice for an enhanced view.</p>
 
-<ul style="border-radius:10px;">
-	<li><a href="homepage.html">Home</a></li>
-	<li><a href="aboutus.html">About Us</a></html>
-	<li><a href="contactus.html">Contact Us</a></html>
-	<li><a href="galleryanimals.html">Animals</a></li>
-	<li><a href="gallerysunsets.html">Sunsets</a></li>
-	<li><a href="gallerylandmarks.html">Landmarks</a></li>
-	<li><a href="faves.html">Faves</a></li>
-</ul>
-
-<div id="Div1" name="Div1" title="Scenery" style="height: 200px; border: 15px solid red; border-radius: 15px;">
-<h1 align="center">Scenery</h1>
+<div class="row">
+<div class="column" 0 0 0 50px>
+<a href="muskokachairspointpelee.jpg"</a>
+	<img src="muskokachairspointpelee.jpg" alt="Chairs" style="width:100%">
+	<figcaption>No. 10 Chairs</figcaption>
 </div>
-<div style="height: 100px border: 2px solid black; border-radius: 15px; padding: 20px;">		
-<p align="center"><strong>Welcome to the photo gallery of scenery! From seas to slopes, highways to getaways...<br>Click on the image for an enhanced view!</strong></p>
+<div class="column">
+<a href="ruralontario.jpg"</a>
+	<img src="ruralontario.jpg" alt="Rural Ontario" style="width:100%">
+	<figcaption>No. 11 Rural Ontario</figcaption>
 </div>
-<div>
-<table id="t01">
-<tbody><tr><th>Image</th>
-<th colspan="2">Name</th>
-<th colspan="2">Description</th>
-<th colspan="2">Photographer</th>
-<th colspan="2">Operations</th>
-</tr>
-<tr><td>
-<a href="nolviewwithbench.jpg">
-<img src="nolviewwithbench.jpg" alt="View with Bench" width="150" height="100"></a></td>
-<td colspan="2">Looking out from Niagara-on-the-Lake</td>
-<td colspan="2">Embrace the view over Lake Ontario<br>to the United States of America.</td>
-<td colspan="2">Nancy</td>
-<td colspan="2"><form><input type="radio" name="choice" value="yes" checked>Yes<input type="radio" name="choice" value="no">No<input type="radio" name="choice" value="maybe">Maybe</td>
-</tr>
-<tr><td>
+<div class="column">
+<a href="purpleflowers.jpg"</a>
+	<img src="purpleflowers.jpg" alt="Purple Flowers" style="width:100%">
+	<figcaption>No. 12 Purple Flowers</figcaption>
+</div>
+<div class="column">
+<a href="Seascapewithrockdock.jpg">
+	<img src="Seascapewithrockdock.jpg" alt="Seascape" style="width:100%">
+	<figcaption>No. 13 Seascape</figcaption>
+</div>
+</div>
+<div class="row">
+<div class="column">
+<a href="crescentmoon.jpg">
+<img src="crescentmoon.jpg" alt="Crescent Moon" style="width:100%">
+<figcaption>No. 14 Crescent Moon</figcaption>
+</div>
+<div class="column">
+<a href="daffodils.jpg">
+<img src="daffodils.jpg" alt="Daffodils" style="width:100%">
+<figcaption>No. 15 Daffodils</figcaption>
+</div>
+<div class="column">
+<a href="Sunflower warrior.jpg">
+<img src="Sunflower warrior.jpg" alt="Sunflower" style="width:100%">
+<figcaption>No. 16 Sunflowers</figcaption>
+</div>
+<div class="column">
 <a href="waterfallsinhamilton.jpg">
-<img src="waterfallsinhamilton.JPG" alt="Escarpment Waterfall" width="150" height="100"></a></td>
-<td colspan="2">Waterfalls</td>
-<td colspan="2">The Niagara Escarpment ripples through<br> Hamilton, creating stunning waterfalls.
-</td><td colspan="2">Nancy</td>
-<td colspan="2"><form><input type="radio" name="choice" value="yes" checked>Yes<input type="radio" name="choice" value="no">No<input type="radio" name="choice" value="maybe">Maybe</td>
-</tr>
-<tr><td>
-<a href="ruralontario.jpg">
-<img src="ruralontario.jpg" width="150" height="100"></a></td>
-<td colspan="2">Rural Ontario</td>
-<td colspan="2">The land is lush with tomatoes, corn<br>and pumpkins at harvest time.</td>
-<td colspan="2">Nancy</td>
-<td colspan="2"><form><input type="radio" name="choice" value="yes" checked>Yes<input type="radio" name="choice" value="no">No<input type="radio" name="choice" value="maybe">Maybe</td>
-</tr>
-<td>
-<a href="seascapewithrockdock.jpg">
-<img src="seascapewithrockdock.jpg" alt="Seascape with Rock Dock" width="150" height="100"></a></td>
-<td colspan="2">Jamaica Seascape</td>
-<td colspan="2">Flying pelicans, perched terns and<br>swimming sting-rays call this home.</td>
-<td colspan="2">Nancy</td>
-<td colspan="2"><form><input type="radio" name="choice" value="yes" checked>Yes<input type="radio" name="choice" value="no">No<input type="radio" name="choice" value="maybe">Maybe</td>
-</tr>
-<tr><td>
-<a href="muskokachairspointpelee.jpg">
-<img src="muskokachairspointpelee.jpg" alt="Muskoka Chairs" width="150px" height="100px">
-</a></td>
-<td colspan="2">Muskoka Chairs</td>
-<td colspan="2">Have a seat and view the wetlands<br>at Point Pelee.</td>
-<td colspan="2">Nancy</td>
-<td colspan="2"><form><input type="radio" name="choice" value="yes" checked>Yes<input type="radio" name="choice" value="no">No<input type="radio" name="choice" value="maybe">Maybe</td>
-</tr>
-</tbody></table>
+<img src="waterfallsinhamilton.jpg" alt="Waterfalls" style="width:100%">
+<figcaption>No. 17 Waterfalls in Hamilton</figcaption>
+
 </div>
-<div>
-<p align="center">Copyright © Photos: Photographer Website: Developers All Rights Reserved</p>
-<p align="center"><a href="file:///C:/Users/nbull/Desktop/FS1000groupproject/galleryscenery/privacypolicy.html">Privacy Policy</a></p>
-<p align="center"><a href="file:///C:/Users/nbull/Desktop/FS1000groupproject/galleryscenery/termsandconditions.html">Terms &amp; Conditions</a></p>
-</div></body></html>
+</div>
+	
+	</div>				
+<div class="footer">
+<p align="center">Copyright&copy;Photos:Photographers Website:Developers All Rights Reserved</p>
+<p align="center"><a href="termsandconditions.html">Terms & Conditions</a></p>
+<p align="center"><a href="privacypolicy.html">Privacy Policy</a></p>
+</div>
+</body>
+</html>
