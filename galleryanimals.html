@@ -2,28 +2,138 @@
 <html lang="en">
 <head><title>Animals</title>
 <link rel="stylesheet" href="tcagstyles.css">
-</head>
-<body>
-<div>
-<ul style="border-radius: 10px">
-<li><a href="homepage.html">Home</a></li>
-<li><a href="aboutus.html">About Us</a><li>
-<li><a href="contactus.html">Contact Us</a></li>
-<li><a href="gallerysunsets.html">Sunsets</a></li>
-<li><a href="galleryscenery.html">Scenery</a></li>
-<li><a href="gallerylandmarks.html">Landmarks</a></li>
-<li><a href="faves.html">Faves</a></li>
-<ul>
+<style>
+body {
+	font-family: "Verdana";
+	}
+	
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: lightgray;
+	overflow-x: hidden;
+	padding-top: 20px;
+	}
+	
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	background-color: none;
+	font-size: 25px;
+	display: block;
+	}
+ 
+ .main {
+	margin-left: 200px;
+	margin-right: 40px;
+	font-size: 28px;
+	padding: 0px 10px;
+}
+.column{
+	float: left;
+	width: 20%;
+	padding: 5px;
+	}
+	
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+		}
+img {
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150 px;
+	}	
+img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.footer {
+		margin-left: 240px;
+		margin-right: 40px;
+		font-size:16px;
+		padding: 800px 0px 0px 0px;
+	
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-siz: 18px;}
+		}
+		</style>
+	</head>
+	<body>
+	
+	<div class="sidenav">
+	<border-radius=10px;>
+		<a href="homepage.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+		<a href="contactus.html">Contact Us</a>
+		<a href="galleryanimals.html">Animals</a>
+		<a href="gallerysunsets.html">Sunsets</a>
+		<a href="galleryscenery.html">Scenery</a>
+		<a href="gallerylandmarks.html">Landmarks</a>
+		<a href="galleryfaves.html">Faves</a>
+	</div>
+	
+	<div class="main">
+	<body style="background-color:#3333cc">
+		<h1 align="center">Animals</h1>
+		<p align="center">Take a tour through our photo gallery.</br>Click on a photo of your choice for an enhanced view.</p>
+
+<div class="row">
+<div class="column" 0 0 0 50px>
+<a href="swan.jpg"</a>
+	<img src="swan.jpg" alt="Swan" style="width:100%">
+	<figcaption>No. 1 Swan</figcaption>
 </div>
-<div id="Div4" name="Div4" title="Animals" style="height: 200px; border: 15px solid brown; border-radius: 15px;">
-<h1 align="center">Animals</h1></div>
-<div>
-<body style="background-color:#DEB887">
+<div class="column">
+<a href="chipmunk.jpg"</a>
+	<img src="chipmunk.jpg" alt="Chipmunk" style="width:100%">
+	<figcaption>No. 2 Chipmunk</figcaption>
 </div>
-<div>
-<p align="center">Copyright &copy; Photos: Photographers Website: Developers All Rights Reserved</p>
-<p align="center"><a href="privacypolicy.html"></a>Privacy Policy</p>
-<p align="center"><a href="termsandconditions.html"></a>Terms & Conditions</p>
+<div class="column">
+<a href="squirel.jpg"</a>
+	<img src="squirrel.jpg" alt="Squirrel" style="width:100%">
+	<figcaption>No. 3 Squirrel</figcaption>
+</div>
+<div class="column">
+<a href="duckinwater.jpg">
+	<img src="duckinwater.jpg" alt="Duck in Water" style="width:100%">
+	<figcaption>No.4 Duck in Water</figcaption>
+</div>
+</div>
+<div class="row">
+<div class="column">
+<a href="cardinal.jpg">
+<img src="cardinal.jpg" alt="Cardinal" style="width:100%">
+<figcaption>No. 5 Cardinal</figcaption>
+</div>
+<div class="column">
+<a href="seagullinchargepointpelee.jpg">
+<img src="seagullinchargepointpelee.jpg" alt="Seagull" style="width:100%">
+<figcaption>No. 6 Seagull</figcaption>
+</div>
+<div class="column">
+<a href="toadonlillypad.jpg">
+<img src="toalonlillypad.jpg.jpg" alt="Sunflower" style="width:100%">
+<figcaption>No. 7 Toad</figcaption>
+</div>
+<div class="column">
+<a href="birdsonplank.jpg">
+<img src="birdsonplank.jpg" alt="Birds on Plank" style="width:100%">
+<figcaption>No. 8 Birds on Plank</figcaption>
+</div>
+</div>
+	
+	</div>				
+<div class="footer">
+<p align="center">Copyright&copy;Photos:Photographers Website:Developers All Rights Reserved</p>
+<p align="center"><a href="termsandconditions.html">Terms & Conditions</a></p>
+<p align="center"><a href="privacypolicy.html">Privacy Policy</a></p>
 </div>
 </body>
 </html>

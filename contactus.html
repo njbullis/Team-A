@@ -3,30 +3,65 @@
 <head><title>Contact Us</title>
 <link rel="stylesheet" href="tcagstyles.css">
 <style>
-table, th, td {
-	padding: 10px;
-	border: 1px solid black;
-	border-collapse: collapse;
-	background-color: beige;
+body {
+	font-family: "Verdana";
 	}
-
-	</style>
-</head>
-<body>
-<div>
-<ul style="border-radius: 10px;">
-<li><a href="homepage.html">Home</a></li>
-<li><a href="aboutus.html">About Us</a></li>
-<li><a href="galleryanimals.html">Animals</a></li>
-<li><a href="gallerysunsets.html">Sunsets</a></li>
-<li><a href="galleryscenery.html">Scenery</a></li>
-<li><a href="gallerylandmarks.html">Landmarks</a></li>
-<li><a href="faves.html">Faves</a></li>
-</ul>
-</div>
-<div>
-<body style="background-color:#808080">
-<h1 align="center">Contact Us</h1>
+	
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: lightgray;
+	overflow-x: hidden;
+	padding-top: 20px;
+	}
+	
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	background-color: none;
+	font-size: 25px;
+	display: block;
+	}
+ 
+ .main {
+	margin-left: 160px;
+	font-size: 28px;
+	padding: 0px 10px;
+	}
+.footer {
+		margin-left: 160px;
+		font-size:16px;
+		padding: 800px 0px 0px 0px;
+		}
+	
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-siz: 18px;}
+		}
+		</style>
+	</head>
+	<body>
+	
+	<div class="sidenav">
+	<border-radius=10px;>
+		<a href="homepage.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+		<a href="contactus.html">Contact Us</a>
+		<a href="galleryanimals.html">Animals</a>
+		<a href="gallerysunsets.html">Sunsets</a>
+		<a href="galleryscenery.html">Scenery</a>
+		<a href="gallerylandmarks.html">Landmarks</a>
+		<a href="galleryfaves.html">Faves</a>
+	</div>
+	
+	<div class="main">
+	<body style="background-color:#3333cc">
+		<h1 align="center">Contact Us</h1>
+		<p align="center">We will get back to you at our earliest opportunity.<br/>Thank you for your interest.</p>
 <table align="center">
 <form>
 <tr><td colspan="2">
@@ -50,6 +85,13 @@ table, th, td {
 <p align="center">Copyright &copy;Photos: Photographers Website: Developers All Rights Reserved</p>
 <p align="center"><a href="privacypolicy.html"</a>Privacy Policy</p>
 <p align="center"><a href="termsandconditions.html"</a>Terms & Conditions</p>
+</div>
+</body>
+</html>	
+<div class="footer">
+<p align="center">Copyright&copy;Photos:Photographers Website:Developers All Rights Reserved</p>
+<p align="center"><a href="termsandconditions.html">Terms & Conditions</a></p>
+<p align="center"><a href="privacypolicy.html">Privacy Policy</a></p>
 </div>
 </body>
 </html>
