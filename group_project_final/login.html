@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>Admin Login Page</title>
+<link rel="stylesheet" href="styles.css">
+<body>
+   
+<!-- Navbar -->
+<div class="hero">
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="gallery.html">Gallery</a></button>    
+            <div class="dropdown-content">
+                <a href="gallery.html">Photo Gallery</a>
+                <a href="gallery.html#favourites">Favourites</a>
+                <a href="gallery.html##animals">Animals</a>
+                <a href="gallery.html##scenery">Scenery</a>
+                <a href="gallery.html##sunsets">Sunsets</a>
+                <a href="gallery.html##landmarks">Landmarks</a>
+            </div>
+        </div>
+        
+        
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+    </div>
+</div>
+    
+<div>
+
+<div class="body-container"> 
+    <form name="myForm" onsubmit="return(validate());" novalidate>
+        <h4>Admin Login below:</h4>
+        <label for="email">Email Address: </label><br>
+            <input type="email" placeholder="email address" id="email" required><br><br>
+        <label for="password">Password: </label><br>
+            <input type="password" placeholder="password" id="password" required><br><br>
+        <button type="submit" class="submit" id="yourLogin">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+    </form>
+
+
+</div> <!-- .body-container-->
+
+</div>
+    
+        <script type="text/javascript">
+
+        document.getElementById("yourLogin").onclick = function() {
+
+        let  yourLoginEntered = document.getElementById("email").value;
+
+        let email = "FS1000TeamC";
+        
+        let  yourPassEntered = document.getElementById("password").value;
+
+        let password = "FS1000TeamC";
+        
+        if (yourLoginEntered == email && yourPassEntered == password) {
+            
+            window.open('admin.html');
+            
+        } else {
+
+            alert("Please double check your login information!");
+}
+
+}
+
+</script>
+
+    
+</body>
+</html>
